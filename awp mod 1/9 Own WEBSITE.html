@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+    
+      header {
+        background-color: rgb(128, 215, 244);
+        padding: 20px;
+      }
+    
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+    
+      nav a {
+        text-decoration: none;
+        color: rgb(16, 15, 15);
+        padding: 10px 20px;
+      }
+    
+      main {
+        padding: 20px;
+      }
+    
+      section {
+        margin-bottom: 20px;
+      }
+    
+      footer{
+        background-color: rgb(134, 199, 252);
+        color: rgb(179, 21, 29);
+        text-align: center;
+        padding: 10px;
+      }
+  </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="file:///C:/Users/GANGA/Desktop/html/ABOUT.html">About</a></li>
+          <li><a href="file:///C:/Users/GANGA/Desktop/html/Services.html">Services</a></li>
+          <li><a href="file:///C:/Users/GANGA/Desktop/html/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>About Us</h1>
+        <p>We are a company that specializes in providing high-quality services to our clients. Our mission is to make sure that our clients are completely satisfied with the work we do for them.</p>
+      </section>
+      <section id="services">
+        <h1>Our Services</h1>
+        <ul>
+          <li>Service 1</li>
+          <li>Service 2</li>
+          <li>Service 3</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <form action="submit-form.php" method="post">
+          <label for="name" >Name:</label><br>
+          <input type="text" placeholder="Name" id="name" name="name"><br>
+          <label for="email">Email:</label><br>
+          <input type="email" placeholder="Email" id="email" name="email"><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 My Website</p>
+    </footer>
+  </body>
+</html>
